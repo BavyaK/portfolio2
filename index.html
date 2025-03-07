@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bavya K - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    
+    <!-- Header -->
+    <header>
+        <div class="logo">Bavya Kanagasabapathy</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Dark/Light mode toggle icon -->
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-sun"></i>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Bavya K</span></h1>
+                    <h2 class="role">Impactor <span>@Psiog Digitals</span></h2>
+                    <p>Infusing every pixel with positivity and purpose!</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/BavyaK" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/bavya-k-bb99a5239/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images/img1.jpg" alt="Bavya K">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/img3.jpg" alt="Bavya K">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I'm Bavya K, a passionate software developer based in Coimbatore. I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me listening to podcasts.</p>
+                    <div class="about-details">
+                        <div class="about-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h4>Name</h4>
+                                <p>Bavya K</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>bavya2310@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Udumalpet, Coimbatore</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.Tech Information Technology, Karpagam College Of Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="resume.pdf" class="btn btn-primary" id="download-cv" download>Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>What I can do</h3>
+                    <p>I have experience in software development, web technologies, and database management. Here are some of my key skills:</p>
+                </div>
+                <div class="skills-cards">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h4>Programming</h4>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" data-percent="90"></div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" data-percent="85"></div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <p>Frontend & Backend Development</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>Database Management</h4>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" data-percent="80"></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <p>Database Design & Optimization</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h4>Internet of Things (IoT)</h4>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" data-percent="75"></div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <p>Embedded Systems & IoT Sensors</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-content">
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card" data-category="iot">
+                        <div class="project-img">
+                            <img src="images/car.jpg" alt="Automated Car Parking System">
+                        </div>
+                        <div class="project-info">
+                            <h4>Automated Car Parking System</h4>
+                            <p>An IoT-based system using sensors and software to manage vehicle parking, including entry, exit control, and space allocation.</p>
+                            <div class="project-tags">
+                                <span>IoT</span>
+                                <span>Embedded Systems</span>
+                                <span>Automation</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="project-card" data-category="iot">
+                        <div class="project-img">
+                            <img src="images/hand.jpg" alt="Hand Movement Detection for Coma Patients">
+                        </div>
+                        <div class="project-info">
+                            <h4>Hand Movement Detection for Coma Patients</h4>
+                            <p>An IoT-based system designed to detect hand movements in coma patients, aiding caregivers in assessing responsiveness and detecting signs of consciousness.</p>
+                            <div class="project-tags">
+                                <span>IoT</span>
+                                <span>Healthcare</span>
+                                <span>Sensor Technology</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+<div class="project-card" data-category="iot">
+    <div class="project-img">
+        <img src="images/train.svg" alt="Railway Reservation System">
+    </div>
+    <div class="project-info">
+        <h4>Railway Reservation System</h4>
+        <p>An IoT-integrated system designed to manage train ticket bookings, seat allocation, and real-time updates, enhancing passenger experience and operational efficiency.</p>
+        <div class="project-tags">
+            <span>Web Development</span>
+            <span>Database</span>
+        </div>
+        
+    </div>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements">
+            <div class="section-header">
+                <h2>Achievements</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="achievements-content container">
+                <div class="achievement-item">
+                    <h3>Certified in Azure AWS</h3>
+                    <p>Earned the AWS  certificate, demonstrating a strong understanding of AWS cloud concepts.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>Hackathon Winner</h3>
+                    <p>Participated at the Dell Hackathon (Hacksprint 1.0) for innovative IoT solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="experience-content container">
+                <div class="experience-item">
+                    <h3>App Development Intern - Emglitz Technologies</h3>
+                    <span class="experience-date">Aug 2023 - Sep 2023</span>
+                    <p>Worked on developing user-friendly mobile applications, learning the basics of app development and modern design practices.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Web Development Intern - Codsoft</h3>
+                    <span class="experience-date">Feb 2024</span>
+                    <p>Gained Knowledge in the domain of Web Development.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>Feel free to reach out if you have any questions or want to work together. I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Coimbatore</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>bavya2310@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>9363265267</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/BavyaK" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/bavya-k-bb99a5239/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <p>© 2025 Bavya K. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
